@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #ff7979;
+}
+
+.bodyBg {
+  background: url(src/intro-component-with-signup-form-master/images/bg-intro-mobile.png)
+    no-repeat;
+  background-size: cover;
+  /* background-color: var(--red); */
+}
