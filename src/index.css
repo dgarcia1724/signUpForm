@@ -14,7 +14,6 @@ body {
   background: url(src/intro-component-with-signup-form-master/images/bg-intro-mobile.png)
     no-repeat;
   background-size: cover;
-  /* background-color: var(--red); */
 }
 
 .positionError {
@@ -25,4 +24,12 @@ body {
   position: absolute;
   top: 16px;
   right: 27px;
+}
+
+@media (min-width: 1000px) {
+  .bodyBg {
+    background: url(src/intro-component-with-signup-form-master/images/bg-intro-desktop.png)
+      no-repeat;
+    background-size: cover;
+  }
 }
