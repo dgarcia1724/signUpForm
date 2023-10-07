@@ -16,3 +16,13 @@ body {
   background-size: cover;
   /* background-color: var(--red); */
 }
+
+.positionError {
+  position: relative;
+}
+
+.positionError img {
+  position: absolute;
+  top: 16px;
+  right: 27px;
+}
